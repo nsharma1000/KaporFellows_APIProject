@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B298C21518EC0581009E3A90 /* FlickrPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = B2DEEF7318EBB6FE0036C47A /* FlickrPhoto.m */; };
+		B298C21618EC0588009E3A90 /* FlickrPhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B2DEEF7718EBB79A0036C47A /* FlickrPhotoCell.m */; };
+		B2DEEF3718EBB5DB0036C47A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2DEEF3618EBB5DB0036C47A /* Foundation.framework */; };
+		B2DEEF3918EBB5DB0036C47A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2DEEF3818EBB5DB0036C47A /* CoreGraphics.framework */; };
+		B2DEEF3B18EBB5DB0036C47A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2DEEF3A18EBB5DB0036C47A /* UIKit.framework */; };
+		B2DEEF4118EBB5DB0036C47A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B2DEEF3F18EBB5DB0036C47A /* InfoPlist.strings */; };
+		B2DEEF4318EBB5DB0036C47A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B2DEEF4218EBB5DB0036C47A /* main.m */; };
+		B2DEEF4718EBB5DB0036C47A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B2DEEF4618EBB5DB0036C47A /* AppDelegate.m */; };
+		B2DEEF4A18EBB5DB0036C47A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2DEEF4818EBB5DB0036C47A /* Main.storyboard */; };
+		B2DEEF4D18EBB5DB0036C47A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2DEEF4C18EBB5DB0036C47A /* ViewController.m */; };
+		B2DEEF4F18EBB5DB0036C47A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2DEEF4E18EBB5DB0036C47A /* Images.xcassets */; };
+		B2DEEF5618EBB5DB0036C47A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2DEEF5518EBB5DB0036C47A /* XCTest.framework */; };
+		B2DEEF5718EBB5DB0036C47A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2DEEF3618EBB5DB0036C47A /* Foundation.framework */; };
+		B2DEEF5818EBB5DB0036C47A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2DEEF3A18EBB5DB0036C47A /* UIKit.framework */; };
+		B2DEEF6018EBB5DB0036C47A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B2DEEF5E18EBB5DB0036C47A /* InfoPlist.strings */; };
+		B2DEEF6218EBB5DB0036C47A /* KaporFellowsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2DEEF6118EBB5DB0036C47A /* KaporFellowsTests.m */; };
+		B2DEEF6C18EBB5E90036C47A /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2DEEF6B18EBB5E90036C47A /* Social.framework */; };
+		B2DEEF6E18EBB6060036C47A /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2DEEF6D18EBB6060036C47A /* MessageUI.framework */; };
+		B2DEEF7418EBB6FE0036C47A /* Flickr.m in Sources */ = {isa = PBXBuildFile; fileRef = B2DEEF7118EBB6FE0036C47A /* Flickr.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B2DEEF5918EBB5DB0036C47A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2DEEF2B18EBB5DB0036C47A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2DEEF3218EBB5DB0036C47A;
+			remoteInfo = KaporFellows;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B298C20F18EC02F3009E3A90 /* FlickrPhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrPhotoCell.h; sourceTree = "<group>"; };
+		B298C21018EC02F3009E3A90 /* FlickrPhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrPhotoCell.m; sourceTree = "<group>"; };
+		B2DEEF3318EBB5DB0036C47A /* KaporFellowship.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KaporFellowship.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2DEEF3618EBB5DB0036C47A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B2DEEF3818EBB5DB0036C47A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B2DEEF3A18EBB5DB0036C47A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B2DEEF3E18EBB5DB0036C47A /* KaporFellowship-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KaporFellowship-Info.plist"; sourceTree = "<group>"; };
+		B2DEEF4018EBB5DB0036C47A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B2DEEF4218EBB5DB0036C47A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B2DEEF4418EBB5DB0036C47A /* KaporFellowship-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KaporFellowship-Prefix.pch"; sourceTree = "<group>"; };
+		B2DEEF4518EBB5DB0036C47A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B2DEEF4618EBB5DB0036C47A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B2DEEF4918EBB5DB0036C47A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B2DEEF4B18EBB5DB0036C47A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B2DEEF4C18EBB5DB0036C47A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B2DEEF4E18EBB5DB0036C47A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B2DEEF5418EBB5DB0036C47A /* KaporFellowshipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KaporFellowshipTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2DEEF5518EBB5DB0036C47A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B2DEEF5D18EBB5DB0036C47A /* KaporFellowshipTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KaporFellowshipTests-Info.plist"; sourceTree = "<group>"; };
+		B2DEEF5F18EBB5DB0036C47A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B2DEEF6118EBB5DB0036C47A /* KaporFellowsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KaporFellowsTests.m; sourceTree = "<group>"; };
+		B2DEEF6B18EBB5E90036C47A /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		B2DEEF6D18EBB6060036C47A /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		B2DEEF7018EBB6FE0036C47A /* Flickr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flickr.h; sourceTree = "<group>"; };
+		B2DEEF7118EBB6FE0036C47A /* Flickr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Flickr.m; sourceTree = "<group>"; };
+		B2DEEF7218EBB6FE0036C47A /* FlickrPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrPhoto.h; sourceTree = "<group>"; };
+		B2DEEF7318EBB6FE0036C47A /* FlickrPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrPhoto.m; sourceTree = "<group>"; };
+		B2DEEF7618EBB7930036C47A /* FlickrPhotoCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlickrPhotoCell.h; sourceTree = "<group>"; };
+		B2DEEF7718EBB79A0036C47A /* FlickrPhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrPhotoCell.m; sourceTree = "<group>"; };
+		B2DEEF7918EBB8110036C47A /* FlickrPhotoHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlickrPhotoHeaderView.h; sourceTree = "<group>"; };
+		B2DEEF7A18EBB8190036C47A /* FlickrPhotoHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrPhotoHeaderView.m; sourceTree = "<group>"; };
+		B2DEEF7C18EBB8570036C47A /* FlickrPhotoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlickrPhotoViewController.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B2DEEF3018EBB5DB0036C47A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2DEEF6E18EBB6060036C47A /* MessageUI.framework in Frameworks */,
+				B2DEEF6C18EBB5E90036C47A /* Social.framework in Frameworks */,
+				B2DEEF3918EBB5DB0036C47A /* CoreGraphics.framework in Frameworks */,
+				B2DEEF3B18EBB5DB0036C47A /* UIKit.framework in Frameworks */,
+				B2DEEF3718EBB5DB0036C47A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2DEEF5118EBB5DB0036C47A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2DEEF5618EBB5DB0036C47A /* XCTest.framework in Frameworks */,
+				B2DEEF5818EBB5DB0036C47A /* UIKit.framework in Frameworks */,
+				B2DEEF5718EBB5DB0036C47A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B2DEEF2A18EBB5DB0036C47A = {
+			isa = PBXGroup;
+			children = (
+				B2DEEF3C18EBB5DB0036C47A /* KaporFellows */,
+				B2DEEF5B18EBB5DB0036C47A /* KaporFellowsTests */,
+				B2DEEF3518EBB5DB0036C47A /* Frameworks */,
+				B2DEEF3418EBB5DB0036C47A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B2DEEF3418EBB5DB0036C47A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2DEEF3318EBB5DB0036C47A /* KaporFellowship.app */,
+				B2DEEF5418EBB5DB0036C47A /* KaporFellowshipTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2DEEF3518EBB5DB0036C47A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B2DEEF6D18EBB6060036C47A /* MessageUI.framework */,
+				B2DEEF6B18EBB5E90036C47A /* Social.framework */,
+				B2DEEF3618EBB5DB0036C47A /* Foundation.framework */,
+				B2DEEF3818EBB5DB0036C47A /* CoreGraphics.framework */,
+				B2DEEF3A18EBB5DB0036C47A /* UIKit.framework */,
+				B2DEEF5518EBB5DB0036C47A /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B2DEEF3C18EBB5DB0036C47A /* KaporFellows */ = {
+			isa = PBXGroup;
+			children = (
+				B2DEEF4518EBB5DB0036C47A /* AppDelegate.h */,
+				B2DEEF4618EBB5DB0036C47A /* AppDelegate.m */,
+				B2DEEF4818EBB5DB0036C47A /* Main.storyboard */,
+				B2DEEF4B18EBB5DB0036C47A /* ViewController.h */,
+				B2DEEF4C18EBB5DB0036C47A /* ViewController.m */,
+				B298C20F18EC02F3009E3A90 /* FlickrPhotoCell.h */,
+				B298C21018EC02F3009E3A90 /* FlickrPhotoCell.m */,
+				B2DEEF4E18EBB5DB0036C47A /* Images.xcassets */,
+				B2DEEF3D18EBB5DB0036C47A /* Supporting Files */,
+			);
+			path = KaporFellows;
+			sourceTree = "<group>";
+		};
+		B2DEEF3D18EBB5DB0036C47A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B2DEEF6F18EBB6FE0036C47A /* FlickStuff */,
+				B2DEEF3E18EBB5DB0036C47A /* KaporFellowship-Info.plist */,
+				B2DEEF3F18EBB5DB0036C47A /* InfoPlist.strings */,
+				B2DEEF4218EBB5DB0036C47A /* main.m */,
+				B2DEEF4418EBB5DB0036C47A /* KaporFellowship-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B2DEEF5B18EBB5DB0036C47A /* KaporFellowsTests */ = {
+			isa = PBXGroup;
+			children = (
+				B2DEEF6118EBB5DB0036C47A /* KaporFellowsTests.m */,
+				B2DEEF5C18EBB5DB0036C47A /* Supporting Files */,
+			);
+			path = KaporFellowsTests;
+			sourceTree = "<group>";
+		};
+		B2DEEF5C18EBB5DB0036C47A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B2DEEF5D18EBB5DB0036C47A /* KaporFellowshipTests-Info.plist */,
+				B2DEEF5E18EBB5DB0036C47A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B2DEEF6F18EBB6FE0036C47A /* FlickStuff */ = {
+			isa = PBXGroup;
+			children = (
+				B2DEEF7C18EBB8570036C47A /* FlickrPhotoViewController.h */,
+				B2DEEF7A18EBB8190036C47A /* FlickrPhotoHeaderView.m */,
+				B2DEEF7918EBB8110036C47A /* FlickrPhotoHeaderView.h */,
+				B2DEEF7718EBB79A0036C47A /* FlickrPhotoCell.m */,
+				B2DEEF7618EBB7930036C47A /* FlickrPhotoCell.h */,
+				B2DEEF7018EBB6FE0036C47A /* Flickr.h */,
+				B2DEEF7118EBB6FE0036C47A /* Flickr.m */,
+				B2DEEF7218EBB6FE0036C47A /* FlickrPhoto.h */,
+				B2DEEF7318EBB6FE0036C47A /* FlickrPhoto.m */,
+			);
+			path = FlickStuff;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B2DEEF3218EBB5DB0036C47A /* KaporFellowship */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2DEEF6518EBB5DB0036C47A /* Build configuration list for PBXNativeTarget "KaporFellowship" */;
+			buildPhases = (
+				B2DEEF2F18EBB5DB0036C47A /* Sources */,
+				B2DEEF3018EBB5DB0036C47A /* Frameworks */,
+				B2DEEF3118EBB5DB0036C47A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KaporFellowship;
+			productName = KaporFellows;
+			productReference = B2DEEF3318EBB5DB0036C47A /* KaporFellowship.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B2DEEF5318EBB5DB0036C47A /* KaporFellowshipTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2DEEF6818EBB5DB0036C47A /* Build configuration list for PBXNativeTarget "KaporFellowshipTests" */;
+			buildPhases = (
+				B2DEEF5018EBB5DB0036C47A /* Sources */,
+				B2DEEF5118EBB5DB0036C47A /* Frameworks */,
+				B2DEEF5218EBB5DB0036C47A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2DEEF5A18EBB5DB0036C47A /* PBXTargetDependency */,
+			);
+			name = KaporFellowshipTests;
+			productName = KaporFellowsTests;
+			productReference = B2DEEF5418EBB5DB0036C47A /* KaporFellowshipTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B2DEEF2B18EBB5DB0036C47A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "University of Michigan";
+				TargetAttributes = {
+					B2DEEF5318EBB5DB0036C47A = {
+						TestTargetID = B2DEEF3218EBB5DB0036C47A;
+					};
+				};
+			};
+			buildConfigurationList = B2DEEF2E18EBB5DB0036C47A /* Build configuration list for PBXProject "KaporFellowship" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B2DEEF2A18EBB5DB0036C47A;
+			productRefGroup = B2DEEF3418EBB5DB0036C47A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2DEEF3218EBB5DB0036C47A /* KaporFellowship */,
+				B2DEEF5318EBB5DB0036C47A /* KaporFellowshipTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B2DEEF3118EBB5DB0036C47A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2DEEF4F18EBB5DB0036C47A /* Images.xcassets in Resources */,
+				B2DEEF4118EBB5DB0036C47A /* InfoPlist.strings in Resources */,
+				B2DEEF4A18EBB5DB0036C47A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2DEEF5218EBB5DB0036C47A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2DEEF6018EBB5DB0036C47A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B2DEEF2F18EBB5DB0036C47A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B298C21618EC0588009E3A90 /* FlickrPhotoCell.m in Sources */,
+				B298C21518EC0581009E3A90 /* FlickrPhoto.m in Sources */,
+				B2DEEF4D18EBB5DB0036C47A /* ViewController.m in Sources */,
+				B2DEEF4718EBB5DB0036C47A /* AppDelegate.m in Sources */,
+				B2DEEF7418EBB6FE0036C47A /* Flickr.m in Sources */,
+				B2DEEF4318EBB5DB0036C47A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2DEEF5018EBB5DB0036C47A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2DEEF6218EBB5DB0036C47A /* KaporFellowsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B2DEEF5A18EBB5DB0036C47A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B2DEEF3218EBB5DB0036C47A /* KaporFellowship */;
+			targetProxy = B2DEEF5918EBB5DB0036C47A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B2DEEF3F18EBB5DB0036C47A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2DEEF4018EBB5DB0036C47A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B2DEEF4818EBB5DB0036C47A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2DEEF4918EBB5DB0036C47A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B2DEEF5E18EBB5DB0036C47A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2DEEF5F18EBB5DB0036C47A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B2DEEF6318EBB5DB0036C47A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B2DEEF6418EBB5DB0036C47A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B2DEEF6618EBB5DB0036C47A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KaporFellows/KaporFellowship-Prefix.pch";
+				INFOPLIST_FILE = "KaporFellows/KaporFellowship-Info.plist";
+				PRODUCT_NAME = KaporFellowship;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B2DEEF6718EBB5DB0036C47A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KaporFellows/KaporFellowship-Prefix.pch";
+				INFOPLIST_FILE = "KaporFellows/KaporFellowship-Info.plist";
+				PRODUCT_NAME = KaporFellowship;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B2DEEF6918EBB5DB0036C47A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KaporFellows.app/KaporFellows";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KaporFellows/KaporFellows-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "KaporFellowsTests/KaporFellowshipTests-Info.plist";
+				PRODUCT_NAME = KaporFellowshipTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		B2DEEF6A18EBB5DB0036C47A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KaporFellows.app/KaporFellows";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KaporFellows/KaporFellows-Prefix.pch";
+				INFOPLIST_FILE = "KaporFellowsTests/KaporFellowshipTests-Info.plist";
+				PRODUCT_NAME = KaporFellowshipTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B2DEEF2E18EBB5DB0036C47A /* Build configuration list for PBXProject "KaporFellowship" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2DEEF6318EBB5DB0036C47A /* Debug */,
+				B2DEEF6418EBB5DB0036C47A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2DEEF6518EBB5DB0036C47A /* Build configuration list for PBXNativeTarget "KaporFellowship" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2DEEF6618EBB5DB0036C47A /* Debug */,
+				B2DEEF6718EBB5DB0036C47A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2DEEF6818EBB5DB0036C47A /* Build configuration list for PBXNativeTarget "KaporFellowshipTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2DEEF6918EBB5DB0036C47A /* Debug */,
+				B2DEEF6A18EBB5DB0036C47A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B2DEEF2B18EBB5DB0036C47A /* Project object */;
+}
