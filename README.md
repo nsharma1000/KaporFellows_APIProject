@@ -11,4 +11,4 @@ Apple device for this to work.
 To use, simpily download the zip file and run in xcode. Note that the "Kapor Fellows.xcodeproj" and "KaporFellowship.
 xcodeproj" are the same file. You can view the application using either file. (Not sure why both files were pushed to Github)
 
-If you have any questions, feel free to email me at snisha@umich.edu :)
+If you have any questions, feel free to email me at snisha@umich.edu
